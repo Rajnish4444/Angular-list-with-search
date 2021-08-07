@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> <mat-icon class="menu-icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
+        </mat-icon>SAVED LISTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><mat-icon class="menu-icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"/>
+          </svg>
+        </mat-icon>SAVED FILTERS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> <mat-icon class="menu-icons">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve"><g><g><g><path d="M235.4,704.4h-94.6c74.4,145.3,225.6,244.8,400.1,244.8C788.9,949.2,990,748.1,990,500c0-248.1-201.1-449.2-449.2-449.2c-220.2,0-403.4,158.4-441.8,367.5H10l122.5,163.3L255,418.3h-72.6c37.2-163.7,183.5-285.8,358.4-285.8c203,0,367.5,164.5,367.5,367.5S743.8,867.5,540.8,867.5C413.5,867.5,301.3,802.7,235.4,704.4z"/><polygon points="520.4,215.5 520.4,514.3 733.2,639.7 753.9,604.5 561.3,490 561.3,215.5 "/></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></g>
+            </svg>
+        </mat-icon> SEARCH HISTORY</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input matInput (input)="searchThis($event.target.value)" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    </form>
+  </div>
+</nav>
